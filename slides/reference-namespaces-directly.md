@@ -3,11 +3,13 @@
 ```php
 <?php
 
-namespace SteveGrunwell\PhpNamespaces;
+namespace App;
 
-function generateUuid(): string
+function getFeed(string $url): string
 {
-    return \Ramsey\Uuid\Uuid::uuid4();
+    $parser = new \Some\Library\Parser($url);
+
+    // ...
 }
 ```
 

@@ -30,6 +30,8 @@
         "code-in-the-same-namespace.md",
         "code-in-nested-namespaces.md",
         "reference-namespaces-directly.md",
+        "filesystem-traversal.md",
+        "thanos.md",
         "importing-namespaces.md",
         "alias-namespaces.md",
         "alias-for-procedural.md",
@@ -47,6 +49,5 @@
         "autoloading2.md",
         "overloading.md"
     ],
-    "thank-you.md",
-    "filesystem-traversal.md"
+    "thank-you.md"
 ]

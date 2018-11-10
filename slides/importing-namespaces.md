@@ -2,18 +2,19 @@
 
 Import namespaces with the `use` keyword:
 
-```php
-<?php
+<pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">namespace SteveGrunwell\PhpNamespaces;
 
-namespace SteveGrunwell\PhpNamespaces;
+function generateUuid(): string
+{
+    return \Ramsey\Uuid\Uuid::uuid4();
+}</code><code class="hljs lang-php fragment fade-in" data-fragment-index="0">namespace SteveGrunwell\PhpNamespaces;
 
 use Ramsey\Uuid\Uuid;
 
 function generateUuid(): string
 {
     return Uuid::uuid4();
-}
-```
+}</code></pre>
 
 Note:
 
