@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "A Crash-Course in PHP Namespaces",
+    "packageVersion": "0.0.0",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "stevegrunwell",
+    "githubRepository": "php-namespaces"
+  }
+}
