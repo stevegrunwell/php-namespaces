@@ -1,5 +1,13 @@
 <!-- .slide: data-background-image="resources/paint-your-wagon.gif" data-background-size="cover" data-background-position="center" -->
 
+```php
+// The vendor-provided function:
+SomeVendor\Package\doSomething($foo);
+
+// A totally different function!
+MyName\MyApp\doSomething($bar, $baz);
+```
+
 Note:
 
 Since they have different names relative to the global namespace, PHP has no issues.

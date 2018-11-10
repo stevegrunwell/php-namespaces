@@ -23,7 +23,7 @@ App\Controllers\UserController => src/Controllers/UserController.php</code></pre
 
 Note:
 
-When namespaces structure matches the filesystem structure, code can easily be easily autoloaded.
+When namespace structure matches the filesystem structure, code can easily be easily autoloaded.
 
 We tell Composer that the "App" namespace refers to src/, and it can guess paths from there.
 

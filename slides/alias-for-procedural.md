@@ -6,7 +6,7 @@ namespace MyPlugin\Updater;
 use MyPlugin\Settings as Settings;
 
 function checkForUpdates() {
-    $product_key = Settings\get_value( 'product_key' );
+    $product_key = Settings\get_value( Settings\PRODUCT_KEY );
 
     // ...
 }
