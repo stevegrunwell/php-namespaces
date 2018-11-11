@@ -1,20 +1,22 @@
 ### Autoloading
 
-Autoloading gives your code super powers!
+How does an autoloader work?
 
-<pre class="hljs lang-php"><code>namespace App;</code><code class="hljs lang-php fragment" data-fragment-index="1">
-use YourName\PartyAnimal\Parrot;
-use YourName\PartyAnimal\Exceptions\PartyException;</code><code class="fragment" data-fragment-index="0">
-require_once __DIR__ . '/vendor/autoload.php';</code><code class="fragment" data-fragment-index="1">
-try {
-    $partyParrot = new Parrot;
-    $partyParrot->party();
-} catch (PartyException $e) {
-    error_log('Unable to party: ' . $e->getMessage());
-}</code></pre>
+<pre class="hljs lang-php"><code>spl_autoload_register(function (string $classname) {</code><code class="fragment" data-fragment-index="0">  // Replace backslashes with forward slashes.
+  $classname = str_replace('\\', '/', $class);</code><code class="fragment" data-fragment-index="1">
+  // Create a system filepath.
+  $filename  = __DIR__ . '/src/' . $classname . '.php';</code><code class="fragment" data-fragment-index="2">
+  // Include the file if it exists.
+  if (file_exists($filename)) {
+    include_once $filename;
+  }</code><code>}</code></pre>
 
 Note:
 
-If we write our code in a way that it can be autoloaded, other developers only need to include `vendor/autoload.php` to start using it!
+Register autoloader callbacks with `spl_autoload_register()`; this callback which will be called when a class doesn't exist.
 
-No complex requires, no worrying about the order in which files load, just loading everything we need on-demand.
+Clean up the class name so it matches the filesystem pattern. This can be as complicated as you need it to be.
+
+Then, if the resolved filename exists, include it!
+
+This is a very basic example of how autoloaders work — Composer does a lot more to make things as easy as possible:
