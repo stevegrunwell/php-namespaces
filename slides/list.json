@@ -45,9 +45,13 @@
     ],
     [
         "benefits-of-namespaces.md",
+        "encapsulation.md",
         "autoloading.md",
         "autoloading2.md",
-        "overloading.md"
+        "autoloading3.md",
+        "overloading.md",
+        "overloading2.md"
     ],
+    "summary.md",
     "thank-you.md"
 ]
