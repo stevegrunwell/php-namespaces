@@ -6,7 +6,7 @@ With namespaces, multiple packages could use the same class and function names w
 
 This talk aims to shed light on PHP namespaces, especially targeted at WordPress developers who haven't yet encountered them. Attendees will leave the talk with a firm grasp on PHP namespaces, how they work, and how they can be implemented in plugins and themes.
 
-:sparkles: **[View slides](http://stevegrunwell.github.io/php-namespaces)** :sparkles:
+:sparkles: **[View slides](http://stevegrunwell.github.io/php-namespaces/)** :sparkles:
 
 ## Resources
 
