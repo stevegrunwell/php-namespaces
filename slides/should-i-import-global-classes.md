@@ -3,6 +3,8 @@
 When referencing a core PHP class, it might be best to use the leading backslash.
 
 ```php
+namespace App;
+
 try {
     $object = new \stdClass;
 

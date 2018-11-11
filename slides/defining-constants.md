@@ -19,6 +19,6 @@ define('ROAST_LEVEL', 'Full City');
 ```php
 # Starbucks ruins everything!
 PHP Notice:  Constant ROAST_LEVEL already defined in
-/src/GoodCoffeeShop.php on line 5.
+/src/Starbucks.php on line 5.
 ```
 <!-- .element: class="fragment" -->

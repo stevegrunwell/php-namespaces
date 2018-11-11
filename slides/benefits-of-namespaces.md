@@ -2,4 +2,4 @@
 
 Note:
 
-Besides avoiding name collisions, there are number of other big benefits from using namespaces.
+Let's take a look at some of the benefits we get from using namespaces in our code.
