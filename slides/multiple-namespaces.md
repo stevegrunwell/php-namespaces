@@ -1,5 +1,7 @@
 ### Multiple namespaces
 
+(Rare, but technically possible)
+
 <pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">&lt;?php
 
 namespace My\Project;

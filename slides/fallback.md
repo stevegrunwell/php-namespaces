@@ -10,7 +10,7 @@ doSomething();
 ```
 <!-- .element: class="fragment" -->
 
-<!-- .element: class="fragment" --> **Classes** will not fall back to the global namespace.
+<!-- .element: class="fragment" --> <u>Classes</u> will not fall back to the global namespace.
 
 Note:
 
