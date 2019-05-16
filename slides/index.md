@@ -1,5 +1,5 @@
 <!-- .slide: class="title-slide" -->
-# A Crash-Course in PHP Namespaces
+# A Crash-Course in PHP Namespaces for WordPress Developers
 
 Steve Grunwell<br>
 [@stevegrunwell](https://twitter.com/stevegrunwell)

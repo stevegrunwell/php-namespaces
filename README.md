@@ -1,4 +1,4 @@
-# A Crash-Course in PHP Namespaces
+# A Crash-Course in PHP Namespaces for WordPress Developers
 
 Way back in 2009, PHP 5.3 was released to the world and with it brought support for PHP namespaces — a way of easily separating your code from other developers’ code, which has since become the de facto way of encapsulating functionality across the PHP ecosystem.
 
@@ -14,4 +14,5 @@ This talk aims to shed light on PHP namespaces, especially targeted at WordPress
 
 ## Presentation History
 
-* [php[world] 2018](https://world.phparch.com/) - November 15, 2018 ([Joind.in](https://joind.in/talk/2ef36))
+* [WordCamp Detroit 2019](https://2019.detroit.wordcamp.org) — May 18, 2019
+* [php[world] 2018](https://world.phparch.com/) — November 15, 2018 ([Joind.in](https://joind.in/talk/2ef36))
