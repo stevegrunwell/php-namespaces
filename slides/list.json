@@ -40,15 +40,14 @@
         "should-i-import-global-classes.md"
     ],
     [
-        "benefits-of-namespaces.md",
-        "encapsulation.md",
         "autoloading.md",
-        "autoloading2.md",
-        "autoloading3.md",
-        "autoloading4.md",
-        "autoloading5.md",
-        "overloading.md",
-        "overloading2.md"
+        "what-is-autoloading.md",
+        "autoloading-example.md",
+        "what-is-composer.md",
+        "composer-json.md",
+        "autoloading-with-composer.md",
+        "anatomy-of-an-autoloader.md",
+        "autoloading-super-powers.md"
     ],
     "summary.md",
     "thank-you.md"

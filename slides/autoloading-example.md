@@ -1,12 +1,11 @@
 ### Autoloading
 
-Only `include` the file when needed
+Only `include` the file when needed:
 
 <pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">&lt;?php
 
 // A life without autoloading
-function generateUuid(): string
-{
+function generate_uuid() {
     require_once 'vendor/ramsey/uuid/src/Generator/RandomGeneratorInterface.php';
     require_once 'vendor/ramsey/uuid/src/Generator/UuidBuilderInterface.php';
     require_once 'vendor/ramsey/uuid/src/BinaryUtils.php';
@@ -21,8 +20,7 @@ function generateUuid(): string
 require_once 'vendor/autoload.php';
 
 // Way better!
-function generateUuid(): string
-{
+function generate_uuid() {
     return Ramsey\Uuid\Uuid::uuid4();
 }</code></pre>
 
@@ -39,6 +37,6 @@ function generateUuid(): string
 
 Note:
 
-Using an autoloader essentially tells PHP "here's how to find the code, automatically pull it in when I need it."
+Using an autoloader essentially tells PHP "here's how to find the code, please pull it in when I need it."
 
-generateUuid function from earlier: we don't need to have this series require_once statements because the UUID package uses namespaces and populates its 'autoload' property in composer.json.
+generate_uuid() function from earlier: we don't need to have this series require_once statements because the UUID package uses namespaces and populates its 'autoload' property in composer.json.

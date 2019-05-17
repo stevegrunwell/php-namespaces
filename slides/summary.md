@@ -8,6 +8,6 @@ Note:
 
 Encapsulate + avoid name collisions
 
-We've had them since 2009 and can use them pretty much everywhere except WordPress core
+We've had them since 2009 and can absolutely use them today, even in WordPress!
 
 Autoloading is one of the best things since sliced bread.
