@@ -14,7 +14,7 @@ namespace My\Namespace;
 
 Note:
 
-The namespace declaration should be the first thing in your file after the opening <?php tag.
+The namespace declaration should be the first thing in your file after the opening <?php tag. Think of it as setting the context for the rest of the file.
 
 Putting anything before it will cause a fatal error.
 

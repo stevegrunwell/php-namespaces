@@ -5,14 +5,14 @@ The `define()` function requires a fully-qualified namespace!
 ```php
 namespace Starbucks;
 
-define('ROAST_LEVEL', 'burned to a crisp');
+define( 'ROAST_LEVEL', 'burned to a crisp' );
 ```
 <!-- .element: class="fragment" -->
 
 ```php
 namespace GoodCoffeeShop;
 
-define('ROAST_LEVEL', 'Full City');
+define( 'ROAST_LEVEL', 'Full City' );
 ```
 <!-- .element: class="fragment" -->
 

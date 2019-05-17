@@ -1,10 +1,12 @@
-### Multiple namespaces
+### Multiple namespaces in one file
+
+(Rare, but technically possible)
 
 <pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">&lt;?php
 
 namespace My\Project;
 
-function doSomething() {/* ... */}</code><span class="fragment fade-out" data-fragment-index="1"><code class="hljs lang-php fragment fade-in" data-fragment-index="0">&lt;?php
+function do_something() {/* ... */}</code><span class="fragment fade-out" data-fragment-index="1"><code class="hljs lang-php fragment fade-in" data-fragment-index="0">&lt;?php
 
 namespace My\Project;
 
@@ -12,14 +14,14 @@ function doSomething() {/* ... */}
 
 namespace My\Project\Services;
 
-function doSomethingElse() {/* ... */}</code></span><code class="hljs lang-php fragment fade-in" data-fragment-index="1">&lt;?php
+function do_something_else() {/* ... */}</code></span><code class="hljs lang-php fragment fade-in" data-fragment-index="1">&lt;?php
 
 namespace My\Project {
-    function doSomething() {/* ... */}
+    function do_something() {/* ... */}
 }
 
 namespace My\Project\Services {
-    function doSomethingElse() {/* ... */}
+    function do_something_else() {/* ... */}
 }</code></pre>
 
 Note:

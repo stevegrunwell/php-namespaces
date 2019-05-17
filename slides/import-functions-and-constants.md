@@ -6,7 +6,7 @@ PHP 5.6+
 
 use MyPlugin\Settings as Settings;
 
-function checkForUpdates() {
+function check_for_updates() {
     $product_key = Settings\get_value( Settings\PRODUCT_KEY );
 
     // ...
@@ -15,7 +15,7 @@ function checkForUpdates() {
 use function MyPlugin\Settings\get_value;
 use const MyPlugin\Settings\PRODUCT_KEY;
 
-function checkForUpdates() {
+function check_for_updates() {
     $product_key = get_value( PRODUCT_KEY );
 
     // ...

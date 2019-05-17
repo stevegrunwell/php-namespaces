@@ -2,26 +2,26 @@
 
 <pre class="fragment-replacement"><code class="hljs lang-php fragment fade-out" data-fragment-index="0">&lt;?php
 
-namespace App\Http;
+namespace SteveGrunwell\MyTheme;
 
-use Some\Framework\Controller;
+use SomeTheme\Widget;
 
-class Controller extends Controller
+class Widget extends Widget
 {
     😵
 }</code><code class="hljs lang-php fragment fade-in" data-fragment-index="0">&lt;?php
 
-namespace App\Http;
+namespace SteveGrunwell\MyTheme;
 
-use Some\Framework\Controller as BaseController;
+use SomeTheme\Widget as BaseWidget;
 
-class Controller extends BaseController
+class Widget extends BaseWidget
 {
     😎
 }</pre>
 
 Note:
 
-When we import a namespace, we're occupying that name within our current namespace. What do we do if, for instance, we're writing a Controller class that extends a different Controller?
+When we import a namespace, we're occupying that name within our current namespace. What do we do if, for instance, we're writing a child theme and want to write a Widget class to extend a class defined in the parent theme?
 
 Using the "as" keyword, we can assign a different name to the imported namespace.
