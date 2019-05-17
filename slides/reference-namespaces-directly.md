@@ -3,11 +3,11 @@
 ```php
 <?php
 
-namespace App;
+namespace MyPlugin;
 
-function getFeed(string $url): string
+function get_feed_contents( string $url ): array
 {
-    $parser = new \Some\Library\Parser($url);
+    $parser = new \Some\Library\Parser( $url );
 
     // ...
 }

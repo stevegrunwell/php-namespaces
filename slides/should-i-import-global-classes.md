@@ -3,13 +3,13 @@
 When referencing a core PHP class, it might be best to use the leading backslash.
 
 ```php
-namespace App;
+namespace MyPlugin;
 
 try {
     $object = new \stdClass;
 
-    doSomething($object);
-} catch (\OutOfRangeException $e) {
+    do_something( $object );
+} catch ( \OutOfRangeException $e ) {
     // ...
 }
 ```

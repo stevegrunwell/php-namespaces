@@ -3,10 +3,10 @@
 ```php
 <?php
 
-namespace App;
+namespace MyPlugin;
 
-$post = new Post; // \App\Post
-$user = new User; // \App\User
+$post = new Post; // \MyPlugin\Post
+$user = new User; // \MyPlugin\User
 ```
 
 Note:

@@ -1,7 +1,7 @@
 ```php
 namespace SomeVendor\Package;
 
-function doSomething(string $foo): bool
+function do_something( string $foo ): bool
 {
     // Does something, presumably.
 }
@@ -10,7 +10,7 @@ function doSomething(string $foo): bool
 ```php
 namespace MyName\MyApp;
 
-function doSomething(int $bar, array $baz): array
+function do_something( int $bar, array $baz ): array
 {
     // Not to be confused with the other one.
 }
@@ -23,4 +23,4 @@ Now we've added namespaces to both methods: SomeVendor\Package to the first one
 
 and MyName\MyApp to the second.
 
-These functions are now effectively named "SomeVendor\Package\doSomething" and "MyName\MyApp\doSomething"
+These functions are now effectively named "SomeVendor\Package\do_something" and "MyName\MyApp\do_something"
