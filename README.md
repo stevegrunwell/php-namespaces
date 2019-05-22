@@ -14,5 +14,6 @@ This talk aims to shed light on PHP namespaces, especially targeted at WordPress
 
 ## Presentation History
 
+* [WordCamp Kent 2019](https://2019.kent.wordcamp.org/) — June 15, 2019
 * [WordCamp Detroit 2019](https://2019.detroit.wordcamp.org) — May 18, 2019 ([PDF](https://github.com/stevegrunwell/php-namespaces/releases/download/wordcamp-detroit-2019/slides.pdf))
 * [php[world] 2018](https://world.phparch.com/) — November 15, 2018 ([Joind.in](https://joind.in/talk/2ef36), [PDF](https://github.com/stevegrunwell/php-namespaces/releases/download/php-world-2018/slides.pdf))
